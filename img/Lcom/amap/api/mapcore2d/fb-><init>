@@ -1,0 +1,3 @@
+graph {
+		"Lcom/amap/api/mapcore2d/fb-><init>" -- "Lcom/amap/api/mapcore2d/ev-><clinit>"
+}

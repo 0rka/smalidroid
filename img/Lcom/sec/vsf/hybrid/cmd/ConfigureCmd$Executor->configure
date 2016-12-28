@@ -1,0 +1,3 @@
+graph {
+		"Lcom/sec/vsf/hybrid/cmd/ConfigureCmd$Executor->configure" -- "Lcom/sec/vsf/hybrid/cmd/ConfigureCmd->execute"
+}

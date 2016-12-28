@@ -1,0 +1,12 @@
+graph {
+		"Lcom/samsung/svoiceclientdp/MyTrustManager-><init>" -- "Lcom/samsung/svoiceclientdp/NetworkTask->HTTPSGetRequest"
+		"Lcom/samsung/svoiceclientdp/NetworkTask->HTTPSGetRequest" -- "Lcom/samsung/svoiceclientdp/NetworkTask->fetchDatafromWeb"
+		"Lcom/samsung/svoiceclientdp/NetworkTask->fetchDatafromWeb" -- "Lcom/samsung/svoiceclientdp/CMAClockManager->getResponseFromURI"
+		"Lcom/samsung/svoiceclientdp/CMAClockManager->getResponseFromURI" -- "Lcom/samsung/svoiceclientdp/CMAClockManager->requestHandler"
+		"Lcom/samsung/svoiceclientdp/NetworkTask->fetchDatafromWeb" -- "Lcom/samsung/svoiceclientdp/CMAWeatherManager->getResponseFromURI"
+		"Lcom/samsung/svoiceclientdp/CMAWeatherManager->getResponseFromURI" -- "Lcom/samsung/svoiceclientdp/CMAWeatherManager->requestHandler"
+		"Lcom/samsung/svoiceclientdp/NetworkTask->fetchDatafromWeb" -- "Lcom/samsung/svoiceclientdp/DianpingPOIManager->getResponseFromURI"
+		"Lcom/samsung/svoiceclientdp/DianpingPOIManager->getResponseFromURI" -- "Lcom/samsung/svoiceclientdp/DianpingPOIManager->requestHandler"
+		"Lcom/samsung/svoiceclientdp/NetworkTask->fetchDatafromWeb" -- "Lcom/samsung/svoiceclientdp/N66CalManager->getResponseFromURI"
+		"Lcom/samsung/svoiceclientdp/N66CalManager->getResponseFromURI" -- "Lcom/samsung/svoiceclientdp/N66CalManager->requestHandler"
+}

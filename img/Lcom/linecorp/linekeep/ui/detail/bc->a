@@ -1,0 +1,3 @@
+graph {
+		"Lcom/linecorp/linekeep/ui/detail/bc->a" -- "Lcom/linecorp/linekeep/ui/detail/bc->doInBackground"
+}

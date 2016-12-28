@@ -1,0 +1,5 @@
+graph {
+		"Lcom/cleanmaster/cleancloud/core/base/ap-><init>" -- "Lcom/cleanmaster/cleancloud/core/base/an->b"
+		"Lcom/cleanmaster/cleancloud/core/base/an->b" -- "Lcom/cleanmaster/cleancloud/core/base/an->a"
+		"Lcom/cleanmaster/cleancloud/core/base/an->a" -- "Lcom/cleanmaster/cleancloud/core/base/h->a"
+}

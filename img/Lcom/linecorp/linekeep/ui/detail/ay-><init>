@@ -1,0 +1,4 @@
+graph {
+		"Lcom/linecorp/linekeep/ui/detail/ay-><init>" -- "Lcom/linecorp/linekeep/ui/detail/KeepFileDetailFragment->a"
+		"Lcom/linecorp/linekeep/ui/detail/KeepFileDetailFragment->a" -- "Lcom/linecorp/linekeep/ui/detail/ax->onClick"
+}

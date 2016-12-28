@@ -1,0 +1,3 @@
+graph {
+		"Lcom/linecorp/linekeep/ui/detail/bc-><init>" -- "Lcom/linecorp/linekeep/ui/detail/ay->a"
+}

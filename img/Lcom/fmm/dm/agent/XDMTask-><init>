@@ -1,0 +1,3 @@
+graph {
+		"Lcom/fmm/dm/agent/XDMTask-><init>" -- "Lcom/fmm/dm/XDMService->onCreate"
+}

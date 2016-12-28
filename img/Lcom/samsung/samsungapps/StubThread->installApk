@@ -1,0 +1,4 @@
+graph {
+		"Lcom/samsung/samsungapps/StubThread->installApk" -- "Lcom/samsung/samsungapps/StubThread->access$000"
+		"Lcom/samsung/samsungapps/StubThread->access$000" -- "Lcom/samsung/samsungapps/StubThread$1->run"
+}

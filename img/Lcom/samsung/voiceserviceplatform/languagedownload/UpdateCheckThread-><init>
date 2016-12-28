@@ -1,0 +1,6 @@
+graph {
+		"Lcom/samsung/voiceserviceplatform/languagedownload/UpdateCheckThread-><init>" -- "Lcom/samsung/voiceserviceplatform/languagedownload/LanguageDownloader->checkUpdate"
+		"Lcom/samsung/voiceserviceplatform/languagedownload/LanguageDownloader->checkUpdate" -- "Lcom/samsung/voiceserviceplatform/languagedownload/LanguageDownloadManager->checkLangaugeUpdate"
+		"Lcom/samsung/voiceserviceplatform/languagedownload/LanguageDownloadManager->checkLangaugeUpdate" -- "Lcom/samsung/voiceserviceplatform/settings/UI/SettingsLanguageDownloadScreenFragment->initializeLanguageLists"
+		"Lcom/samsung/voiceserviceplatform/settings/UI/SettingsLanguageDownloadScreenFragment->initializeLanguageLists" -- "Lcom/samsung/voiceserviceplatform/settings/UI/SettingsLanguageDownloadScreenFragment->onCreateView"
+}

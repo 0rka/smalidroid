@@ -1,0 +1,8 @@
+graph {
+		"Lcom/dynatrace/apm/uem/mobile/android/Core->startup" -- "Lcom/dynatrace/apm/uem/mobile/android/DynatraceUEM->startup"
+		"Lcom/dynatrace/apm/uem/mobile/android/DynatraceUEM->startup" -- "Lcom/samsung/vsf/apm/UemUtil->initialize"
+		"Lcom/samsung/vsf/apm/UemUtil->initialize" -- "Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->initializeApm"
+		"Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->initializeApm" -- "Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->checkLaunchStatus"
+		"Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->checkLaunchStatus" -- "Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->onCreate"
+		"Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->checkLaunchStatus" -- "Lcom/samsung/android/app/quickdial/event/OneWordCallEventActivity->onNewIntent"
+}

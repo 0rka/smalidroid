@@ -1,0 +1,3 @@
+graph {
+		"Lcom/samsung/samsungapps/StubThread$1-><init>" -- "Lcom/samsung/samsungapps/StubThread->checkDownload"
+}
